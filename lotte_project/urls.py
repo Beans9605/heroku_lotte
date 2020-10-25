@@ -23,4 +23,4 @@ urlpatterns = [
     path('mypage/', include('mypage.urls')), #(최종인)
     path('', include('cloth.urls')),
     path('qr_code/', include('qr_code.urls', namespace='qr_code'))
- ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+ ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
