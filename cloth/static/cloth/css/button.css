@@ -1,0 +1,10 @@
+.add_z {
+  z-index: 1;
+}
+.remove_z {
+  z-index: 0;
+}
+
+.btn-group {
+  width: 100%;
+}

@@ -1,0 +1,1 @@
+web: gunicorn lotte_project.wsgi --log-file -

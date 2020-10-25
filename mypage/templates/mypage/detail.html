@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail_user</title>
+</head>
+<body>
+    <div class="detail">
+        <div class="basic">
+            <h3>{{ user.username }}</h3> <br>
+            {{ user.first_name }} <br>
+            {{ user.last_name }} <br>
+            {{ user.email }} <br>
+        </div>
+        <div class="more">
+            {{ user.weight }} <br>
+            {{ user.height }} <br>
+            {{ user.fit }} <br>
+            {{ user.faceLength }} <br>
+        </div>
+    </div>
+    <a href="{% url 'edit_custom' %}">edit</a>
+    <a href="{% url 'logout' %}">logout</a>
+</body>
+</html>

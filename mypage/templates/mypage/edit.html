@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit_user</title>
+</head>
+<body>
+    <form action="{% url 'edit_custom' %}" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="button">
+            <button type="submit" class="submit-button">수정 완료</button>
+        </div>
+    </form>
+</body>
+</html>

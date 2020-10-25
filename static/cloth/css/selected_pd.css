@@ -1,0 +1,15 @@
+.selected_pd {
+  border: 1px solid black;
+  width: 100%;
+  height: 150px;
+  opacity: 0;
+  position: relative;
+  display: grid;
+  grid-auto-columns: repeat(3,1fr);
+
+}
+.slide2_img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

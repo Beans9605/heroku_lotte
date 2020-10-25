@@ -1,0 +1,10 @@
+.slidebox {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.slideWrap {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+}
