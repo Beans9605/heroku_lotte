@@ -29,7 +29,7 @@ DEBUG = False
 ALLOWED_HOSTS = ["*"]
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace('\\', '/')
+MEDIA_ROOT = (os.path.join(BASE_DIR, 'media'))
 #이미지 파일 건으로 혹시 몰라 써놓음 필요시 주석 제거 필요없을시 삭제ㅠ (최종인)    
 
 # Application definition
@@ -130,8 +130,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = ( os.path.join(BASE_DIR, 'static'))
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static'),
-#     '/cloth/static/',
-#     '/mypage/static',
 # ]
 
 import dj_database_url
